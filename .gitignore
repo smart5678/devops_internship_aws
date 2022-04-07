@@ -1,0 +1,9 @@
+/.terraform/
+/.env
+/export.sh
+/terraform.tfstate
+/terraform.tfstate.backup
+/settings.tfvars
+/.terraform.lock.hcl
+/venv/
+/modules/control/

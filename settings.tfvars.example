@@ -1,0 +1,7 @@
+owner = <email>
+subnets = <subnet list for ec instances> # ["subnet-xxx", "subnet-yyy"]
+security_groups = <list of SG for project> # ["sg-x", "sg-y"]
+username = "wordpress"
+password = "wordpress"
+private_key = <Relative path to your key pair file> # "../ec2_kp.pem"
+key_name = <Your key pair name> # "ec2_kp"
