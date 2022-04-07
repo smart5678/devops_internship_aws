@@ -43,3 +43,8 @@ terraform apply -var-file=settings.tfvars
 Take `lb_public_dns` from output and open it in browser.
 
 That's all folks.
+
+##!!! Don't forget to switch off all lights when you left work.
+```bash
+terraform apply -var-file=settings.tfvars
+```
