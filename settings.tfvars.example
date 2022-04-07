@@ -1,4 +1,4 @@
-owner = <email>
+owner = <email> # "email@example.com"
 subnets = <subnet list for ec instances> # ["subnet-xxx", "subnet-yyy"]
 security_groups = <list of SG for project> # ["sg-x", "sg-y"]
 username = "wordpress"
