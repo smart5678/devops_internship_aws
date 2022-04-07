@@ -2,6 +2,10 @@ variable "owner_tag" {
   type    = string
 }
 
+variable "vpc_id" {
+  type = string
+}
+
 variable "security_groups" {
   type = list(string)
   description = "SG for allow access to instance"

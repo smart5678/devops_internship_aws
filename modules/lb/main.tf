@@ -2,7 +2,7 @@ resource "aws_lb_target_group" "tg-ums-workers" {
   name     = "tg-ums-workers"
   port     = 80
   protocol = "HTTP"
-  vpc_id   = "vpc-6c6dfe06"
+  vpc_id   = var.vpc_id
 }
 
 resource "aws_lb_target_group_attachment" "tg-attachment-ums" {

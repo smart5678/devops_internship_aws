@@ -11,6 +11,10 @@ variable "security_groups" {
   description = "SG for allow access to instance"
 }
 
+variable "vpc_id" {
+  type = string
+}
+
 variable "username" {
   type = string
   sensitive = true
