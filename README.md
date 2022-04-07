@@ -46,5 +46,5 @@ That's all folks.
 
 ##!!! Don't forget to switch off all lights when you left work.
 ```bash
-terraform apply -var-file=settings.tfvars
+terraform destroy -var-file=settings.tfvars
 ```
